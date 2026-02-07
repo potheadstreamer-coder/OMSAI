@@ -44,7 +44,7 @@ const Hero = () => {
             <span className="text-[#e76f51]">Sourcing Expert</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-200 mb-8 font-semibold tracking-wide">
+          <p className="text-lg md:text-xl text-gray-200 mb-8 font-bold tracking-wide" style={{ fontFamily: "'Bank Gothic', 'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '0.1em' }}>
             {companyInfo.tagline}
           </p>
 
