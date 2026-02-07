@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import WhyChooseUs from './components/WhyChooseUs';
 import Products from './components/Products';
+import Manufacturing from './components/Manufacturing';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <WhyChooseUs />
         <Products />
+        <Manufacturing />
         <Services />
         <Contact />
         <Footer />
