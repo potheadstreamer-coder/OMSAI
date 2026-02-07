@@ -44,10 +44,6 @@ const Hero = () => {
             <span className="text-[#e76f51]">Sourcing Expert</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed">
-            Your Trusted Partner for Export, Import, and Domestic/Global Sourcing
-          </p>
-
           <p className="text-lg md:text-xl text-gray-200 mb-8 font-semibold tracking-wide">
             {companyInfo.tagline}
           </p>
