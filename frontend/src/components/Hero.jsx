@@ -41,7 +41,7 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             Global Supply &<br />
-            <span className="!font-sans !text-[#51E754]">Sourcing Experts</span>
+            <span className="!font-sans text-[#e76f51]">Sourcing Experts</span>
           </h1>
 
           <p className="md:text-xl -200 !font-bold !text-lg mb-8 text-white" style={{ fontFamily: "'Bank Gothic', 'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '0.1em' }}>
