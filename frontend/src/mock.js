@@ -14,7 +14,7 @@ export const companyInfo = {
 export const certifications = [
 { name: "ISO Certified", code: "ISO 9001:2015" },
 { name: "FSSAI Licensed", code: "Lic. No. 12345678901234" },
-{ name: "EXIM Code", code: "Reg. No. APEDA/2024" },
+{ name: "EXIM Code", code: "Code. No. 2134654311009" },
 { name: "Organic Certified", code: "India Organic" }];
 
 
