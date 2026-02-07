@@ -21,14 +21,14 @@ export const products = {
   agro: [
     {
       id: 1,
-      name: "Basmati Rice",
+      name: "Premium Rice",
       category: "Agro Commodities",
-      description: "Premium quality aged Basmati rice with extra-long grains and aromatic fragrance.",
+      description: "Premium quality rice including Basmati and non-Basmati varieties with excellent grain quality.",
       specifications: {
-        variety: "1121 Golden Sella / White Sella",
-        grainLength: "8.3mm - 8.4mm",
-        moisture: "12% Max",
-        brokens: "1% Max",
+        variety: "1121 Basmati / IR64 / Sona Masoori",
+        grainLength: "6.0mm - 8.4mm",
+        moisture: "12-14% Max",
+        brokens: "1-5% Max",
         purity: "95% Min"
       },
       image: "https://images.unsplash.com/photo-1686820740687-426a7b9b2043?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxyaWNlJTIwZ3JhaW5zfGVufDB8fHx8MTc3MDQzMjQ3M3ww&ixlib=rb-4.1.0&q=85",
@@ -36,71 +36,86 @@ export const products = {
     },
     {
       id: 2,
-      name: "Non-Basmati Rice",
+      name: "Fresh Potatoes",
       category: "Agro Commodities",
-      description: "IR64, Sona Masoori, and Swarna varieties suitable for daily consumption.",
+      description: "High-quality fresh potatoes suitable for wholesale, retail, and processing industries.",
       specifications: {
-        variety: "IR64 Parboiled / Raw",
-        grainLength: "6.0mm - 6.2mm",
-        moisture: "14% Max",
-        brokens: "5% Max",
-        purity: "95% Min"
+        variety: "Red / White / Yellow",
+        size: "40mm - 80mm",
+        moisture: "80% Approx",
+        shelf: "2-3 months (cold storage)",
+        packing: "10kg / 25kg / 50kg bags"
       },
-      image: "https://images.pexels.com/photos/6086557/pexels-photo-6086557.jpeg",
+      image: "https://images.unsplash.com/photo-1744659751904-3b2e5c095323",
       incoterms: ["FOB", "CIF"]
     },
     {
       id: 3,
-      name: "Wheat",
+      name: "Wheat Grains",
       category: "Agro Commodities",
-      description: "High-protein wheat suitable for flour milling and baking.",
+      description: "High-protein wheat grains suitable for flour milling, baking, and food processing.",
       specifications: {
-        variety: "Sharbati / Lokwan",
-        protein: "11-12%",
+        variety: "Sharbati / Lokwan / Durum",
+        protein: "11-13%",
         moisture: "12% Max",
         admixture: "2% Max",
         foreignMatter: "1% Max"
       },
-      image: "https://images.unsplash.com/photo-1603106116068-02fc27fe5131?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHw0fHxyaWNlJTIwZ3JhaW5zfGVufDB8fHx8MTc3MDQzMjQ3M3ww&ixlib=rb-4.1.0&q=85",
+      image: "https://images.unsplash.com/photo-1714168526009-2d0d333640d5",
       incoterms: ["FOB", "CIF", "EXW"]
     },
     {
       id: 4,
-      name: "Pulses",
+      name: "Mixed Pulses",
       category: "Agro Commodities",
-      description: "Wide range of pulses including Chickpeas, Lentils, and Kidney Beans.",
+      description: "Wide range of pulses including Chickpeas, Toor Dal, Moong Dal, Masoor Dal, and Kidney Beans.",
       specifications: {
-        variety: "Chickpeas / Toor Dal / Moong Dal",
+        variety: "Chickpeas / Toor / Moong / Masoor",
         moisture: "12% Max",
         admixture: "1% Max",
         damaged: "2% Max",
         shriveled: "3% Max"
       },
-      image: "https://images.pexels.com/photos/6086556/pexels-photo-6086556.jpeg",
+      image: "https://images.unsplash.com/photo-1763368403529-0b8d9108cf9c",
       incoterms: ["FOB", "CIF"]
+    },
+    {
+      id: 5,
+      name: "Refined Sugar",
+      category: "Agro Commodities",
+      description: "Premium quality white refined sugar with high purity for food and beverage industries.",
+      specifications: {
+        grade: "ICUMSA 45 / ICUMSA 100",
+        polarization: "99.8% Min",
+        moisture: "0.04% Max",
+        color: "45-100 ICUMSA",
+        granulation: "Fine / Medium"
+      },
+      image: "https://images.unsplash.com/photo-1562245376-3f9dae9f0e73",
+      incoterms: ["FOB", "CIF", "CFR"]
     }
   ],
   spices: [
     {
-      id: 5,
-      name: "Turmeric Powder",
+      id: 6,
+      name: "Black Cardamom",
       category: "Spices",
-      description: "Premium quality turmeric with high curcumin content for food and pharmaceutical use.",
+      description: "Large pod black cardamom with smoky flavor, used extensively in Indian and Asian cuisines.",
       specifications: {
-        curcumin: "3-5%",
-        moisture: "10% Max",
-        totalAsh: "7% Max",
-        acidInsoluble: "1% Max",
-        color: "Golden Yellow"
+        grade: "Bold / Medium",
+        size: "15mm - 20mm",
+        moisture: "12% Max",
+        volatile: "2-3%",
+        color: "Dark Brown to Black"
       },
-      image: "https://images.unsplash.com/photo-1581600140682-d4e68c8cde32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxzcGljZXN8ZW58MHx8fHwxNzcwNDMyNDY4fDA&ixlib=rb-4.1.0&q=85",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/nigcw2hn_Gemini_Generated_Image_wa1cc7wa1cc7wa1c.png",
       incoterms: ["FOB", "CIF", "CFR"]
     },
     {
-      id: 6,
+      id: 7,
       name: "Black Pepper",
       category: "Spices",
-      description: "Bold quality black pepper with high piperine content and strong aroma.",
+      description: "Premium quality black peppercorns with high piperine content and strong aroma.",
       specifications: {
         bulkDensity: "500-600 GL",
         moisture: "12% Max",
@@ -108,29 +123,29 @@ export const products = {
         lightBerries: "2% Max",
         extraneous: "0.5% Max"
       },
-      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwzfHxzcGljZXN8ZW58MHx8fHwxNzcwNDMyNDY4fDA&ixlib=rb-4.1.0&q=85",
+      image: "https://images.unsplash.com/photo-1591801058986-9e28e68670f7",
       incoterms: ["FOB", "CIF"]
     },
     {
-      id: 7,
-      name: "Green Cardamom",
+      id: 8,
+      name: "Turmeric",
       category: "Spices",
-      description: "Premium Alleppey Green Cardamom with bold size and natural color.",
+      description: "Premium quality turmeric powder and roots with high curcumin content for culinary and medicinal use.",
       specifications: {
-        grade: "Alleppey Green Bold (AGB)",
-        size: "7mm - 8mm",
+        curcumin: "3-5%",
         moisture: "10% Max",
-        volatile: "8% Min",
-        color: "Natural Green"
+        totalAsh: "7% Max",
+        acidInsoluble: "1% Max",
+        color: "Golden Yellow"
       },
-      image: "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHw0fHxzcGljZXN8ZW58MHx8fHwxNzcwNDMyNDY4fDA&ixlib=rb-4.1.0&q=85",
+      image: "https://images.unsplash.com/photo-1606951444141-e5533feb55be",
       incoterms: ["FOB", "CIF", "CFR"]
     },
     {
-      id: 8,
+      id: 9,
       name: "Cumin Seeds",
       category: "Spices",
-      description: "Machine cleaned cumin seeds with high oil content and uniform color.",
+      description: "Machine cleaned cumin seeds (Jeera) with high essential oil content and uniform color.",
       specifications: {
         purity: "99% Min",
         moisture: "9% Max",
@@ -138,46 +153,31 @@ export const products = {
         admixture: "1% Max",
         color: "Greenish Brown"
       },
-      image: "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg",
-      incoterms: ["FOB", "CIF"]
-    },
-    {
-      id: 9,
-      name: "Red Chili",
-      category: "Spices",
-      description: "Premium quality dried red chili with high color and heat value.",
-      specifications: {
-        variety: "Teja / Sannam / S4",
-        color: "ASTA 100+",
-        moisture: "12% Max",
-        capsaicin: "0.5% - 1%",
-        admixture: "1% Max"
-      },
-      image: "https://images.pexels.com/photos/2632292/pexels-photo-2632292.jpeg",
+      image: "https://images.unsplash.com/photo-1601723897386-e5df0c749fb7",
       incoterms: ["FOB", "CIF"]
     },
     {
       id: 10,
-      name: "Coriander Seeds",
+      name: "Cinnamon",
       category: "Spices",
-      description: "Premium quality coriander seeds with uniform size and natural aroma.",
+      description: "Premium Ceylon and Cassia cinnamon with rich aroma for culinary and industrial applications.",
       specifications: {
-        purity: "99% Min",
-        moisture: "10% Max",
-        volatile: "0.4% Min",
-        admixture: "1% Max",
-        color: "Light Brown"
+        variety: "Ceylon / Cassia",
+        moisture: "12% Max",
+        volatile: "1-2%",
+        form: "Sticks / Powder",
+        color: "Light to Dark Brown"
       },
-      image: "https://images.unsplash.com/photo-1716816211590-c15a328a5ff0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwyfHxzcGljZXN8ZW58MHx8fHwxNzcwNDMyNDY4fDA&ixlib=rb-4.1.0&q=85",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/2rs2owo8_Gemini_Generated_Image_kgpdufkgpdufkgpd.png",
       incoterms: ["FOB", "CIF"]
     }
   ],
   herbal: [
     {
       id: 11,
-      name: "Ashwagandha Root",
+      name: "Ashwagandha",
       category: "Herbal Products",
-      description: "Premium quality Withania Somnifera root for pharmaceutical and nutraceutical use.",
+      description: "Premium quality Withania Somnifera (Ashwagandha) root and powder for pharmaceutical and nutraceutical applications.",
       specifications: {
         withanolides: "2.5% - 5%",
         moisture: "10% Max",
@@ -185,52 +185,52 @@ export const products = {
         form: "Whole Root / Powder",
         mesh: "40-80 mesh (powder)"
       },
-      image: "https://images.unsplash.com/photo-1596344084757-b83f2081da8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwxfHxtZWRpY2luYWwlMjBoZXJic3xlbnwwfHx8fDE3NzA0MzI0Nzh8MA&ixlib=rb-4.1.0&q=85",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/x6s91a1v_Gemini_Generated_Image_ir7n8ir7n8ir7n8i.png",
       incoterms: ["FOB", "CIF", "CFR"]
     },
     {
       id: 12,
-      name: "Neem Products",
+      name: "Reetha (Soapnut)",
       category: "Herbal Products",
-      description: "Neem leaves, powder, and oil for cosmetic and pharmaceutical applications.",
+      description: "Natural soapnuts (Reetha) for eco-friendly cleaning products, shampoos, and Ayurvedic preparations.",
       specifications: {
-        form: "Dried Leaves / Powder / Oil",
-        azadirachtin: "1500-3000 ppm (oil)",
-        moisture: "10% Max (powder)",
-        purity: "98% Min",
-        mesh: "40-80 mesh (powder)"
+        form: "Whole Dried / Powder",
+        saponin: "10-15%",
+        moisture: "12% Max",
+        purity: "95% Min",
+        color: "Brown"
       },
-      image: "https://images.unsplash.com/photo-1659328376647-52ec39d1a5cf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwyfHxtZWRpY2luYWwlMjBoZXJic3xlbnwwfHx8fDE3NzA0MzI0Nzh8MA&ixlib=rb-4.1.0&q=85",
+      image: "https://images.unsplash.com/photo-1634326599007-a108c3f5abcd",
       incoterms: ["FOB", "CIF"]
     },
     {
       id: 13,
-      name: "Moringa Powder",
+      name: "White Musli",
       category: "Herbal Products",
-      description: "Nutrient-rich Moringa oleifera leaf powder for health supplements.",
+      description: "Premium Safed Musli (Chlorophytum borivilianum) roots for health supplements and Ayurvedic medicine.",
       specifications: {
-        protein: "25% Min",
-        moisture: "8% Max",
-        color: "Green",
-        mesh: "60-80 mesh",
-        microbes: "Within limits"
+        saponins: "2-4%",
+        moisture: "10% Max",
+        form: "Dried Roots / Powder",
+        mesh: "60-80 mesh (powder)",
+        purity: "98% Min"
       },
-      image: "https://images.unsplash.com/photo-1611073761742-bce90ccd60ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwzfHxtZWRpY2luYWwlMjBoZXJic3xlbnwwfHx8fDE3NzA0MzI0Nzh8MA&ixlib=rb-4.1.0&q=85",
-      incoterms: ["FOB", "CIF"]
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/co0c1kr4_Gemini_Generated_Image_a9ywg7a9ywg7a9yw.png",
+      incoterms: ["FOB", "CIF", "CFR"]
     },
     {
       id: 14,
-      name: "Herbal Extracts",
+      name: "Keedajadi (Cordyceps)",
       category: "Herbal Products",
-      description: "Standardized herbal extracts for pharmaceutical and cosmetic industries.",
+      description: "Rare Himalayan Cordyceps (Keedajadi) for premium health supplements and traditional medicine.",
       specifications: {
-        variety: "Tulsi / Giloy / Amla / Triphala",
-        form: "Powder / Liquid Extract",
-        standardization: "As per requirement",
-        solvent: "Water / Ethanol",
-        purity: "95% Min"
+        variety: "Cordyceps Sinensis",
+        form: "Whole Dried / Powder",
+        moisture: "10% Max",
+        activeCompounds: "Cordycepin, Polysaccharides",
+        origin: "High Altitude Himalayan"
       },
-      image: "https://images.pexels.com/photos/105028/pexels-photo-105028.jpeg",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/gjsnyh5j_Gemini_Generated_Image_n0n9bn0n9bn0n9bn.png",
       incoterms: ["FOB", "CIF", "EXW"]
     }
   ]
