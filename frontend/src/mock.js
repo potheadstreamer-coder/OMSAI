@@ -153,7 +153,7 @@ export const products = {
         admixture: "1% Max",
         color: "Greenish Brown"
       },
-      image: "https://images.unsplash.com/photo-1601723897386-e5df0c749fb7",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/pyo5mt11_Gemini_Generated_Image_iqiejhiqiejhiqie.png",
       incoterms: ["FOB", "CIF"]
     },
     {
@@ -168,7 +168,7 @@ export const products = {
         form: "Sticks / Powder",
         color: "Light to Dark Brown"
       },
-      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/2rs2owo8_Gemini_Generated_Image_kgpdufkgpdufkgpd.png",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/bmtfxnud_Gemini_Generated_Image_kgpdufkgpdufkgpd.png",
       incoterms: ["FOB", "CIF"]
     }
   ],
@@ -215,7 +215,7 @@ export const products = {
         mesh: "60-80 mesh (powder)",
         purity: "98% Min"
       },
-      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/co0c1kr4_Gemini_Generated_Image_a9ywg7a9ywg7a9yw.png",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/9qobtcfa_Gemini_Generated_Image_a9ywg7a9ywg7a9yw.png",
       incoterms: ["FOB", "CIF", "CFR"]
     },
     {
@@ -230,7 +230,7 @@ export const products = {
         activeCompounds: "Cordycepin, Polysaccharides",
         origin: "High Altitude Himalayan"
       },
-      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/gjsnyh5j_Gemini_Generated_Image_n0n9bn0n9bn0n9bn.png",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/7nkabhi5_Gemini_Generated_Image_a9s1e4a9s1e4a9s1.png",
       incoterms: ["FOB", "CIF", "EXW"]
     }
   ]
