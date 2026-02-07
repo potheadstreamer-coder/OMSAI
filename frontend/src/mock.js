@@ -302,7 +302,7 @@ export const whyChooseUs = [
 },
 {
   title: "Reliable Supply",
-  description: "Consistent supply chain with 15+ years of experience in international commodity trading.",
+  description: "Consistent supply chain with 5+ years of experience in international commodity trading.",
   icon: "package"
 },
 {
