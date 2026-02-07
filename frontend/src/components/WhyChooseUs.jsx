@@ -20,8 +20,8 @@ const WhyChooseUs = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[#2d6a4f] mb-4">
             Why Partner With Us?
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            With over 15 years of experience in international commodity trading, we deliver excellence at every step.
+          <p className="max-w-2xl !text-lg mx-auto text-gray-600">With over 7 years of experience in international commodity trading, we deliver excellence at every step.
+
           </p>
         </div>
 
@@ -32,8 +32,8 @@ const WhyChooseUs = () => {
             return (
               <div
                 key={index}
-                className="group bg-white rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100"
-              >
+                className="group bg-white rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
+
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-14 h-14 bg-[#2d6a4f]/10 rounded-lg flex items-center justify-center group-hover:bg-[#2d6a4f] transition-colors duration-300">
@@ -49,8 +49,8 @@ const WhyChooseUs = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-            );
+              </div>);
+
           })}
         </div>
 
@@ -76,8 +76,8 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default WhyChooseUs;
