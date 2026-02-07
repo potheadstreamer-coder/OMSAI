@@ -40,9 +40,13 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Premium Spices &<br />
-            <span className="text-[#e76f51]">Agro Commodities</span>
+            Global Supply &<br />
+            <span className="text-[#e76f51]">Sourcing Expert</span>
           </h1>
+
+          <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed">
+            Your Trusted Partner for Export, Import, and Domestic/Global Sourcing
+          </p>
 
           <p className="text-lg md:text-xl text-gray-200 mb-8 font-semibold tracking-wide">
             {companyInfo.tagline}
