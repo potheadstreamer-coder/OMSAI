@@ -68,9 +68,16 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <button 
                 onClick={() => scrollToSection('home')}
-                className="text-2xl font-bold text-[#2d6a4f] hover:text-[#e76f51] transition-colors"
+                className="flex items-center gap-3 hover:opacity-80 transition-opacity"
               >
-                {companyInfo.name}
+                <img 
+                  src={companyInfo.logo} 
+                  alt={companyInfo.name}
+                  className="h-16 w-16 object-contain"
+                />
+                <span className="text-xl font-bold text-[#2d6a4f] hidden md:block">
+                  {companyInfo.name}
+                </span>
               </button>
             </div>
 

@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    const message = `Hi, I'm interested in AgroTrade Global's products and services.`;
+    const message = `Hi, I'm interested in ${companyInfo.name}'s products and services.`;
     window.open(`https://wa.me/${companyInfo.whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`, '_blank');
   };
 

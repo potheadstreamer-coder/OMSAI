@@ -1,12 +1,13 @@
 // Mock data for AgroTrade Global
 
 export const companyInfo = {
-  name: "AgroTrade Global",
+  name: "Om Sai Commercial Pvt. Ltd.",
+  logo: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/t68rt8nc_ChatGPT%20Image%20Feb%201%2C%202026%2C%2005_11_11%20PM.png",
   tagline: "Connecting Global Markets with Premium Agro Commodities",
-  email: "contact@agrotrade.com",
+  email: "contact@omsaicommercial.com",
   phone: "+91-123-456-7890",
   whatsapp: "+91-123-456-7890",
-  address: "Mumbai, Maharashtra, India"
+  address: "Kathmandu-32, Nepal"
 };
 
 export const certifications = [

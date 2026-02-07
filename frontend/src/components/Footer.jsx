@@ -21,7 +21,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-[#e76f51]">{companyInfo.name}</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src={companyInfo.logo} 
+                alt={companyInfo.name}
+                className="h-16 w-16 object-contain bg-white rounded-full p-1"
+              />
+              <h3 className="text-xl font-bold text-[#e76f51]">{companyInfo.name}</h3>
+            </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Your trusted partner for premium agro commodities, spices, and herbal products with global reach.
             </p>
