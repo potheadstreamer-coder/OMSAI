@@ -58,16 +58,16 @@ const WhyChooseUs = () => {
         <div className="mt-20 bg-[#2d6a4f] rounded-2xl p-12 text-white">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#e76f51] mb-2">15+</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#e76f51] mb-2">7+</div>
               <div className="text-sm md:text-base text-gray-200">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#e76f51] mb-2">30+</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#e76f51] mb-2">11+</div>
               <div className="text-sm md:text-base text-gray-200">Countries Served</div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[#e76f51] mb-2">500+</div>
-              <div className="text-sm md:text-base text-gray-200">Global Clients</div>
+              <div className="text-sm md:text-base text-gray-200">Worldwide Clients</div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[#e76f51] mb-2">100K+</div>

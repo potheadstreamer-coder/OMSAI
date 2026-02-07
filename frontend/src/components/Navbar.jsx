@@ -31,8 +31,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', id: 'home' },
-    { name: 'About', id: 'about' },
+    { name: 'Why Us', id: 'about' },
     { name: 'Products', id: 'products' },
+    { name: 'Manufacturing', id: 'manufacturing' },
     { name: 'Services', id: 'services' },
     { name: 'Contact', id: 'contact' }
   ];
@@ -56,7 +57,7 @@ const Navbar = () => {
               </a>
             </div>
             <div className="text-sm">
-              Trusted Global Trading Partner Since 2009
+              Established in 2024
             </div>
           </div>
         </div>
