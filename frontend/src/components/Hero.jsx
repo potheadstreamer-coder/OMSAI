@@ -44,7 +44,7 @@ const Hero = () => {
             <span className="text-[#e76f51]">Agro Commodities</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-200 mb-8 font-semibold tracking-wide">
             {companyInfo.tagline}
           </p>
 
