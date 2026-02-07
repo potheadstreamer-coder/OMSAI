@@ -4,10 +4,11 @@ export const companyInfo = {
   name: "Om Sai Commercial Pvt. Ltd.",
   logo: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/t68rt8nc_ChatGPT%20Image%20Feb%201%2C%202026%2C%2005_11_11%20PM.png",
   tagline: "TRUSTED SOURCING | TIMELESS QUALITY | GLOBAL REACH",
-  email: "contact@omsaicommercial.com",
-  phone: "+91-123-456-7890",
-  whatsapp: "+91-123-456-7890",
-  address: "Kathmandu-32, Nepal"
+  email: "ranjit@omsaicommercial.com",
+  phone: "+977 980-590-5337",
+  whatsapp: "+977 980-590-5337",
+  address: "Koteshwore, Kathmandu, Nepal",
+  managingDirector: "Ranjit Gupta"
 };
 
 export const certifications = [
