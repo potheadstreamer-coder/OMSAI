@@ -123,7 +123,7 @@ export const products = {
         lightBerries: "2% Max",
         extraneous: "0.5% Max"
       },
-      image: "https://images.unsplash.com/photo-1591801058986-9e28e68670f7",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/v0gj61lp_Gemini_Generated_Image_yqlsygyqlsygyqls.png",
       incoterms: ["FOB", "CIF"]
     },
     {
@@ -138,7 +138,7 @@ export const products = {
         acidInsoluble: "1% Max",
         color: "Golden Yellow"
       },
-      image: "https://images.unsplash.com/photo-1606951444141-e5533feb55be",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/amlfyft6_Gemini_Generated_Image_k715sfk715sfk715.png",
       incoterms: ["FOB", "CIF", "CFR"]
     },
     {
@@ -200,7 +200,7 @@ export const products = {
         purity: "95% Min",
         color: "Brown"
       },
-      image: "https://images.unsplash.com/photo-1634326599007-a108c3f5abcd",
+      image: "https://customer-assets.emergentagent.com/job_agro-spices/artifacts/9pijixf5_Gemini_Generated_Image_or0f5dor0f5dor0f.png",
       incoterms: ["FOB", "CIF"]
     },
     {
