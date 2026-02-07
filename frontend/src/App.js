@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Toaster } from './components/ui/sonner';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -16,16 +17,18 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <WhyChooseUs />
-      <Products />
-      <Services />
-      <Contact />
-      <Footer />
-      <Toaster position="top-right" richColors />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Hero />
+        <WhyChooseUs />
+        <Products />
+        <Services />
+        <Contact />
+        <Footer />
+        <Toaster position="top-right" richColors />
+      </div>
+    </BrowserRouter>
   );
 }
 
